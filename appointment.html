@@ -65,6 +65,16 @@
                   style="font-size: 15.84px !important; line-height: 23.76px !important;">We'll never share your email
                   with anyone else.</small>
               </div>
+              <br>
+              <div class="form-group" style="font-size: 17.325px !important; line-height: 25.9966px !important;">
+                <select class="custom-select" style="font-size: 17.325px !important; line-height: 25.9966px !important;">
+                  <option selected="" style="font-size: 17.325px !important;">Appointment Time:</option>
+                  <option value="1" style="font-size: 17.325px !important;">11 A.M.</option>
+                  <option value="2" style="font-size: 17.325px !important;">12 P.M.</option>
+                  <option value="3" style="font-size: 17.325px !important;">5 P.M.</option>
+                </select>
+              </div>
+              <br>
               <div class="form-group" style="font-size: 19.8px !important; line-height: 29.7px !important;">
                 <label for="exampleTextarea"
                   style="font-size: 19.8px !important; line-height: 29.7px !important;">Comments</label>
@@ -72,14 +82,33 @@
                   style="font-size: 19.8px !important; line-height: 29.7px !important;"></textarea>
               </div>
               <br>
-              <button type="submit" class="btn btn-primary"
+              <button type="submit" class="btn btn-primary" id="submit1"
                 style="font-size: 19.8px !important; line-height: 29.7px !important;">Submit</button>
             </fieldset>
           </form>
+          <br>
 
+            <!-- <div class="form-group" style="font-size: 17.325px !important; line-height: 25.9966px !important;">
+              <select class="custom-select" style="font-size: 17.325px !important; line-height: 25.9966px !important;">
+                <option selected="" style="font-size: 17.325px !important;">Appointment Time:</option>
+                <option value="1" style="font-size: 17.325px !important;">11 A.M.</option>
+                <option value="2" style="font-size: 17.325px !important;">12 P.M.</option>
+                <option value="3" style="font-size: 17.325px !important;">5 P.M.</option>
+              </select>
+            </div> -->
         </div>
       </div>
     </section>
+
+    <script>
+      document.getElementById("submit1").addEventListener('click',getClient);
+
+      function getClient(e) {
+        
+        
+      }
+    </script>
+
 
 
 
@@ -108,6 +137,7 @@
                   <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
                   1313 Jan Mohammed Street, Camp, Pune-411001 Opp. Nafees Textiles
                 </li>
+                <br>
                 <li>
                   <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
                   <a href="mailto:sadarshahid@gmail.com" target="_blank">sadarshahid@gmail.com</a>
